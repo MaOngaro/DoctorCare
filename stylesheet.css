@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --brand-green-light: #dce9e2;
+  --brand-green: #00856f;
+  --gray-headline: #212529;
+  --gray-paragraph: #495057;
+  --white: #ffffff;
+}
+
+header {
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.1rem;
+}
+
+body {
+  font-family: 'DM Sans';
+  text-align: center;
+
+  background-color: var(--brand-green-light);
+}
+
+h4 {
+  font-size: 1.4rem;
+  letter-spacing: 0.08rem;
+  color: var(--brand-green);
+
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--gray-headline);
+
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--gray-paragraph);
+
+  margin-bottom: 3.2rem;
+}
+
+button {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--white);
+
+  width: 26.3rem;
+  height: 5.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  background-color: var(--brand-green);
+  box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 4rem;
+  border: none;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+}
